@@ -1,0 +1,79 @@
+#pane2 {
+	width:98%;
+}
+.scroll-pane {
+	max-height:330px;
+	width: 393px;
+	overflow: auto;
+	margin:10px 0 0 0;
+	padding:2px 0 2px 2px;
+	position:relative;
+}
+			
+.jScrollPaneContainer {	
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	width:100%!important;
+	height:345px!important;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #aaa;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background:#F60;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background:#666 url(basic_arrow_up.gif) no-repeat 50% 0;
+	height: 9px;
+}
+a.jScrollArrowUp:hover {
+	background:#f60 url(basic_arrow_up.gif) no-repeat 50% -30px;
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background:#666 url(basic_arrow_down.gif) no-repeat 50% 0!important;
+	height: 9px;
+}
+a.jScrollArrowDown:hover {
+	background:#f60 url(basic_arrow_down.gif) no-repeat 50% -30px;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	background-color: #f00;
+	background-position:50% -15px;
+}

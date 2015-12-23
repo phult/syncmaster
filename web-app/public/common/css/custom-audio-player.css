@@ -1,0 +1,58 @@
+/* ‡ custom audio player stylesheet */
+.ap-player,
+.ap-info-panel {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.ap-info-panel {
+	display: none;
+	width: 320px;
+	padding: 5px 10px 7px;
+}
+.ap-title,
+.ap-album,
+.ap-artist {
+	margin: 0;
+	padding: 0;
+}
+.ap-album {
+	font-style: italic;
+}
+.ap-progress {
+	position: absolute;
+	top: 17px;
+	left: 114px;
+	right: 54px;
+}
+.ap-controls {
+	position: relative;
+	display: inline-block;
+	margin: 2px;
+	padding: 4px 0;
+}
+.ap-button {
+	margin: 0 4px;
+}
+.ap-time {
+	width: 50%;
+	font-size: 0.8em;
+	cursor: default;
+}
+.ap-current {
+	position: relative;
+	top: 0;
+}
+.ap-duration {
+	position: absolute;
+	top: 0;
+	right: 2px;
+	text-align: right;
+}
+.ap-mute,
+.ap-unmute {
+	position: absolute;
+	top: 18px;
+	right: 20px;
+}
